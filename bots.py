@@ -8,7 +8,7 @@ class vk_bot:
 	
 	def __init__(self):
 		self.URL = 'https://api.vk.com/method/'
-		self.TOKEN = '5496ea96b321240adecde76e7f017f83d07d0945fae21829c1ff76422b31e3424bb3a687d4233a5a076d5'
+		self.TOKEN = 'TOKEN'
 		self.PARAMETRS = 'access_token=' + self.TOKEN 
 		#self.tg = tg_bot()
 
@@ -109,7 +109,7 @@ class vk_bot:
 class  tg_bot:
 
 	def __init__(self):
-		self.TOKEN = '525669681:AAGl4hQeZqjic2viTE8D_LvZDxKiVcOKDII'
+		self.TOKEN = 'TOKEN'
 		self.URL = 'https://api.telegram.org/bot' + self.TOKEN + '/'
 		#self.vk = vk_bot()
 
